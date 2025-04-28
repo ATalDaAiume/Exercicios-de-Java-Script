@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Operações Aritméticas</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 30px;
+    }
+    input {
+      margin-bottom: 10px;
+      padding: 5px;
+    }
+    button {
+      padding: 5px 10px;
+      margin-top: 10px;
+    }
+    table {
+      margin-top: 20px;
+      border-collapse: collapse;
+      width: 300px;
+    }
+    th, td {
+      border: 1px solid #000;
+      padding: 8px;
+      text-align: center;
+    }
+    th {
+      background-color: #eee;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Calculadora de Operações Aritméticas</h1>
+
+  <label for="num1">Digite o primeiro número:</label><br>
+  <input type="number" id="num1" required><br>
+
+  <label for="num2">Digite o segundo número:</label><br>
+  <input type="number" id="num2" required><br>
+
+  <button onclick="calcularOperacoes()">Calcular</button>
+
+  <div id="resultado"></div>
+
+  <script src="exer4.js"></script>
+
+</body>
+</html>

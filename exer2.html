@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionário do Cinema</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        label, p {
+            margin-bottom: 10px;
+        }
+        input[type="number"], button {
+            padding: 5px;
+            margin: 10px 0;
+        }
+        .result {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Questionário de Opinião sobre o Filme</h1>
+
+    <form id="questionarioForm">
+        <div id="inputs"></div>
+        <button type="button" onclick="calcularResultados()">Calcular</button>
+    </form>
+
+    <p id="resultado" class="result"></p>
+
+    <script src="exer2.js"></script>
+
+</body>
+</html>

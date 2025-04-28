@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reajuste de Salário</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        label, p {
+            margin-bottom: 10px;
+        }
+        input[type="number"], button {
+            padding: 5px;
+            margin: 10px 0;
+        }
+        .result {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Cálculo de Reajuste Salarial</h1>
+
+    <label for="salario">Digite o salário do colaborador: R$</label>
+    <input type="number" id="salario" placeholder="Digite o salário" required>
+    <button onclick="calcularReajuste()">Calcular Reajuste</button>
+
+    <p id="resultado" class="result"></p>
+
+    <script src="exer6.js"></script>
+
+</body>
+</html>

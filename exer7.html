@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data por Extenso</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        label, p {
+            margin-bottom: 10px;
+        }
+        input[type="text"], button {
+            padding: 5px;
+            margin: 10px 0;
+        }
+        .result {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Conversor de Data para Extenso</h1>
+
+    <label for="data">Digite a data no formato "dd/mm/aaaa":</label>
+    <input type="text" id="data" placeholder="dd/mm/aaaa" required>
+    <button onclick="converterData()">Converter para Extenso</button>
+
+    <p id="resultado" class="result"></p>
+
+    <script src="exer7.js"></script>
+
+</body>
+</html>
